@@ -1,0 +1,29 @@
+ Comandos de Git
+
+ Git es un sistema de control de versiones que
+  sirve para trabajar en un equipo mucho 
+  mas simple para desarollar un software
+
+  Comandos Basicos de Git :
+  -Git config : Utilizado para configuar usuario, email y otras cosas mas.
+  -Git init :  inicializar una carpeta como un repositorio Git
+  -Git clone : copiar un repositorio Git
+  -Git add : agregar los contenidos de archivos al staging area
+  -Git status : estado de los archivos en el directorio de trabajo y en el
+staging area
+ -Git commit : graba una instantánea del staging area
+ -Git reset : deshace cambios y commits
+ -Git branch: Listara las ramas locales
+ -Git branch  NombreRama : Crea una nueva rama.
+ -Git branch -d : eliminar una rama
+ -Git push :  subir las nuevas ramas y cambios a un repositorio
+remoto
+-Git pull :Para actualizar tu repositorio local al commit más nuevo
+-Git remote :Agregar repositorio remoto
+-Git remote rm : Remove un repositorio remoto
+-Git remote -v : Muestra lista repositorios
+-mkdir : Crear un nuevo directorio
+-CD : Ver el directorio que estas 
+-CD.. : Volver al directorio anterior
+-doskey /history :Saca todo el historial de los comandos git y cmd ejecutados.
+-
