@@ -27,3 +27,4 @@ remoto
 -CD.. : Volver al directorio anterior
 -doskey /history :Saca todo el historial de los comandos git y cmd ejecutados.
 -
+git stash : Es como una unidad de almacenamiento que guarda tu proyecto y todas sus caracteristicas, y con esto permite regresar y continuar trabajando desde donde lo dejamos.
