@@ -26,5 +26,21 @@ remoto
 -CD : Ver el directorio que estas 
 -CD.. : Volver al directorio anterior
 -doskey /history :Saca todo el historial de los comandos git y cmd ejecutados.
--
-git stash : Es como una unidad de almacenamiento que guarda tu proyecto y todas sus caracteristicas, y con esto permite regresar y continuar trabajando desde donde lo dejamos.
+
+ COMPLEMENTACION DEL TUTORIAL DE GIT 27/10/2020
+
+-Git stash : Es como una unidad de almacenamiento que guarda tu proyecto y todas sus caracteristicas,
+ y con esto permite regresar y continuar trabajando desde donde lo dejamos.
+
+Que es Cherry Piking ? Es cuando quieres elegir un tipo de confirmacion de una rama baseada en Git 
+luego aplicar sus caracteristicas a otra rama.
+Como podemos resolver los conflictos en git ?
+
+Primero hay que saber que tipo de conflicto estas enfrentando.
+Verificar en que rama estas y si tiene alguna fusion desta rama con otra 
+Para organizar las correciones de los errores, lo puede especificar con git commit 
+
+Cual es el lenguaje utilizado por Git ?
+ El lenguaje utilizado es el C porque permite a git mas agilidad , 
+ lo que no se puede lograr en cualquier lenguaje
+
