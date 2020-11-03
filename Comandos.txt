@@ -44,4 +44,18 @@ Cual es el lenguaje utilizado por Git ?
  El lenguaje utilizado es el C porque permite a git mas agilidad , 
  lo que no se puede lograr en cualquier lenguaje
 
-TESTGIT
+Para que se utiliza el comando GIT CONFIG?
+El comando git config se puede utilizar para configurar la mayoría de las opciones que necesitarás al usar Git.
+ Ya sea información del usuario o la forma en que funciona el repositorio, 
+ este comando se convierte en un método de configuración muy conveniente.
+
+ Para que sirve el comando : Git log
+Ejecutar este comando muestra una lista de commits en una rama junto con todos los detalles. 
+
+ Para que sirve el comando : Git fetch
+Este comando le permite al usuario buscar todos los objetos de un repositorio remoto 
+que actualmente no reside en el directorio local que está trabajando. 
+
+Para que sirve el comando : Git remote
+El comando git se usa para conectar a un repositorio remoto. 
+El siguiente comando muestra los repositorios remotos que están configurados actualmente
