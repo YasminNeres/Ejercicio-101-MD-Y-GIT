@@ -28,3 +28,28 @@ Pregunta 5 : Para que sirve el comando Git Rebase
  Podemos usar git rebase para hacer "squash" de los commits.
   Squash quiere decir algo así como aplastarlos... crear un commit nuevo, que venga después del 2, y 
   que sea similar a aplicar los cambios de los commits 3 y 4.
+
+ Pregunta 6 : Que pasa si fusiono 2 ramas que no son master?
+  Respuesta: Las ramas no se borran a menos que lo hagas explicitamnete, lo que ocurre es 
+  que todos los cambios de la rama1 se añadiran a la rama 2. Pero la rama 1 no estara afectada.
+  En la rama master no va pasar nada porque esta apartada.
+
+  Pregunta 7 : Como subir un proyecto a un repositorio diferente de que se clono?
+  Respuesta : Primero hay que borrar el repositorio : rm -rf .git
+  Luego Iniciar el nuevo repositorio (Git init) y los demas comandos y subirlo al nuevo repositorio.
+
+  Pregunta 8 : Como eliminar ramas mezcladas con la master ?
+  Respuesta : Para eliminar ramas mescladas con la master se debe utilizar el seguinte comando :
+  git branch --merge | egrep -v "\*master" | xargs git branch -d 
+  De esta manera se eliminara todas las ramas mezcladas con la master sin eliminar sus commits.
+
+  Pregunta 9 : Como recuperar archivos eliminados ?
+  Respuesta : Primero hay que hacer un git log y coger el codigo del commit wue deseas recuperar
+  En seguida hay que utilizar el comando : git checkout  + codigo del commit 
+  Luego tendras nuevamente los archivos en tu carpeta.
+
+  Pregunta 10 : Como puedo saber el numero de commits de cada uno de los contribuidores?
+  Respuesta: Para saber el los numeros de commits y que mensajes se añadieron en los commits, 
+  se debe utilizar es codigo : git shortlog
+  Si quieres ver los commits de cada uno de los usuarios , utilizar el seguinte comando:
+  git shortlog | grep "nombre usuario"
