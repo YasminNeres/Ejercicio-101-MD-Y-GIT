@@ -1,0 +1,30 @@
+Elegir 10 preguntas y respuestas para solucionar las dudas sobre git 
+
+Pregunta 1 : Cual es la diferencia entre git fetch y git pull
+
+Respuesta:  En realidad git pull baja los cambios de la rama determinada y la actualiza contra tu repositorio local.
+Git fetch baja los cambios de la rama determinada y la coloca en una rama espejo 
+que simplemente es una clase de rama escondida en la cual tú puedes mirar los cambios de dicha rama, 
+para posteriormente hacer merge con tu rama local.
+
+Pregunta 2 : Para qué se usan los tags en Git?
+
+Respuesta:  Sirven para dejar un registro, una marca de una versión en concreto. 
+Se hacen cuando publicas una versión (v0.1, v1.0, v2.2, etc.) de modo que 
+puedas volver a dicha versión por si tuvieras que probar alguna funcionalidad o error que suceda en esa versión
+
+Pregunta 3 : Que es la rama master en Git?
+
+Respuesta:  Reusmiendo se puede decir que es la primera que se crea. 
+Su uso suele ir destinado a ser la rama principal del proyecto, 
+en donde se encuentra o debería de encontrar siempre la última versión estable y funcional de producción del proyecto.
+
+Pregunta 4 : Como saber sobre cual commit estoy trabajando ?
+Respuesta : Para ver todos los commits en tu maquina puedes usar git log
+Por ejemplo si quieres ver los ultimos 3 commits que has echo puedes utilizar el codigo : git log -3
+
+Pregunta 5 : Para que sirve el comando Git Rebase 
+ Respuesta : Rebase es muy útil cuando querés "reescribir la historia", y se puede usar en distintos escenarios.
+ Podemos usar git rebase para hacer "squash" de los commits.
+  Squash quiere decir algo así como aplastarlos... crear un commit nuevo, que venga después del 2, y 
+  que sea similar a aplicar los cambios de los commits 3 y 4.
