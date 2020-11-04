@@ -78,7 +78,47 @@ Ejemplo:
    
    \ casa
    coche
-   ***
+***
+
+## Colores : 
+Agregue una clase personalizada a un encabezado o párrafo usando las siguientes clases especiales.
+
+### GitLab Orange Heading
+{: .gitlab-orange}
+
+### GitLab Purple Heading
+{: .gitlab-purple}
+
+
+*** 
+
+### Videos
+Este método funciona para videos de YouTube y cualquier otro video incrustado dentro de una etiqueta <iframe>.
+
+Copie el código a continuación y péguelo en su archivo de rebajas. Deje una línea en blanco arriba y abajo. NO edite el bloque de código (por ejemplo, elimine espacios; es posible que el iframe del video no se procese correctamente)
+Vaya a la URL del video que desea mostrar
+Haga clic en "Compartir", luego en "Insertar"
+Copie solo la URL de <iframe>origen ( src) y péguela reemplazando lo siguiente:src
+
+<!-- blank line -->
+<figure class="video_container">
+  <iframe src="https://www.youtube.com/embed/enMumwvLAug" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+<!-- blank line -->
+
+***
+### Insertar Documentos
+Es fácil incrustar Google Docs, Sheets, Slides y prácticamente todo lo que proporciona un iframe para usar. Lo único que debe hacer es usar el siguiente código dentro de su archivo de rebajas y reemplazar el iframe del documento que desea incrustar:
+
+<figure class="video_container">
+<iframe IFRAME CONTENT></iframe>
+</figure>
+
+<figure class="video_container">
+<iframe src="https://docs.google.com/spreadsheets/d/1jAnvYpRmNu8BISIrkYGTLolOTmlCoKLbuHVWzCXJSY4/pubhtml?widget=true&amp;headers=false"></iframe>
+</figure>
+
+***
 
 
 
